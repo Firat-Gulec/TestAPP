@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum Images:String {
+    case background_auth = "img_backgroud_auth" 
+}

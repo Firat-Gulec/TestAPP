@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4C0A5E2C7F89320024E4B4 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C0A5D2C7F89320024E4B4 /* FacebookButton.swift */; };
+		8A4C0A602C7F89620024E4B4 /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C0A5F2C7F89620024E4B4 /* GoogleButton.swift */; };
+		8A4C0A622C7F8DA70024E4B4 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C0A612C7F8DA70024E4B4 /* EdgeInsets.swift */; };
+		8A4C0A642C7F8E420024E4B4 /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C0A632C7F8E420024E4B4 /* AppleButton.swift */; };
 		8AB8A2E42C7EF810006E68A9 /* WelcomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A2E32C7EF810006E68A9 /* WelcomeApp.swift */; };
 		8AB8A2E62C7EF810006E68A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A2E52C7EF810006E68A9 /* ContentView.swift */; };
 		8AB8A2E82C7EF811006E68A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8A2E72C7EF811006E68A9 /* Assets.xcassets */; };
@@ -15,9 +19,15 @@
 		8AB8A2FC2C7EFAA6006E68A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8A2FB2C7EFAA6006E68A9 /* Images.xcassets */; };
 		8AB8A2FE2C7EFAB5006E68A9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8A2FD2C7EFAB5006E68A9 /* Colors.xcassets */; };
 		8AB8A3022C7F0369006E68A9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A3012C7F0369006E68A9 /* Images.swift */; };
+		8AB8A3042C7F2089006E68A9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A3032C7F2089006E68A9 /* Colors.swift */; };
+		8AB8A3092C7F2BC7006E68A9 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A3082C7F2BC7006E68A9 /* Icons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A4C0A5D2C7F89320024E4B4 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
+		8A4C0A5F2C7F89620024E4B4 /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
+		8A4C0A612C7F8DA70024E4B4 /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		8A4C0A632C7F8E420024E4B4 /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
 		8AB8A2E02C7EF810006E68A9 /* Welcome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welcome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8A2E32C7EF810006E68A9 /* WelcomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeApp.swift; sourceTree = "<group>"; };
 		8AB8A2E52C7EF810006E68A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +37,8 @@
 		8AB8A2FB2C7EFAA6006E68A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AB8A2FD2C7EFAB5006E68A9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8AB8A3012C7F0369006E68A9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		8AB8A3032C7F2089006E68A9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8AB8A3082C7F2BC7006E68A9 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A4C0A5B2C7F88F50024E4B4 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C0A5C2C7F890A0024E4B4 /* Buttons */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		8A4C0A5C2C7F890A0024E4B4 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C0A5D2C7F89320024E4B4 /* FacebookButton.swift */,
+				8A4C0A5F2C7F89620024E4B4 /* GoogleButton.swift */,
+				8A4C0A632C7F8E420024E4B4 /* AppleButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		8AB8A2D72C7EF810006E68A9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,7 @@
 		8AB8A2F12C7EF8D0006E68A9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8AB8A3052C7F20E8006E68A9 /* Extensions */,
 				8AB8A3002C7F034B006E68A9 /* Enums */,
 			);
 			path = Utils;
@@ -105,6 +136,7 @@
 		8AB8A2F42C7EF940006E68A9 /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				8A4C0A5B2C7F88F50024E4B4 /* Widgets */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -155,8 +187,18 @@
 			isa = PBXGroup;
 			children = (
 				8AB8A3012C7F0369006E68A9 /* Images.swift */,
+				8AB8A3032C7F2089006E68A9 /* Colors.swift */,
+				8AB8A3082C7F2BC7006E68A9 /* Icons.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		8AB8A3052C7F20E8006E68A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C0A612C7F8DA70024E4B4 /* EdgeInsets.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB8A2E62C7EF810006E68A9 /* ContentView.swift in Sources */,
+				8AB8A3042C7F2089006E68A9 /* Colors.swift in Sources */,
+				8A4C0A622C7F8DA70024E4B4 /* EdgeInsets.swift in Sources */,
+				8AB8A3092C7F2BC7006E68A9 /* Icons.swift in Sources */,
+				8A4C0A642C7F8E420024E4B4 /* AppleButton.swift in Sources */,
+				8A4C0A5E2C7F89320024E4B4 /* FacebookButton.swift in Sources */,
 				8AB8A3022C7F0369006E68A9 /* Images.swift in Sources */,
 				8AB8A2FA2C7EFA2D006E68A9 /* WelcomeView.swift in Sources */,
+				8A4C0A602C7F89620024E4B4 /* GoogleButton.swift in Sources */,
 				8AB8A2E42C7EF810006E68A9 /* WelcomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

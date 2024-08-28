@@ -9,10 +9,22 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        Image("img_backgroud_auth").imageScale(.large)
+        ZStack {
+            Image(Images.background_auth.rawValue)
+            Color(Colors.background_color.rawValue)
+            VStack {
+                Image(Icons.appLogo.rawValue).resizable().frame(width: 500,height: 500, alignment: .center)
+                facebookLoginButton(onTap: {}).padding(Edge.Set.top, 2)
+                googleLoginButton(onTap: {}).padding(Edge.Set.top, 2)
+                appleLoginButton(onTap: {}).padding(Edge.Set.top, 2)
+            }.padding(.paddingAll)
+        }
     }
 }
+
 
 #Preview {
     WelcomeView()
 }
+
+
