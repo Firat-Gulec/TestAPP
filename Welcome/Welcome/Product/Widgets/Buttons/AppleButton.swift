@@ -15,7 +15,7 @@ struct appleLoginButton: View {
         }label: {
             HStack {
                 Image(Icons.appleLogo.rawValue)
-                Text("Sign In with Apple")
+                Text(LocalizedStringResource("signinApple"))
                 //Spacer()
             }
             .tint(.white)

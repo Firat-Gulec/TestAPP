@@ -15,7 +15,7 @@ struct googleLoginButton: View {
         }label: {
             HStack {
                 Image(Icons.googleLogo.rawValue)
-                Text("Sign In with Google")
+                Text(LocalizedStringResource("signinGoogle"))
                 //Spacer()
             }
             .tint(.white)

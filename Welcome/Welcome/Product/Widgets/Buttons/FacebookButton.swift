@@ -15,7 +15,8 @@ struct facebookLoginButton: View {
         }label: {
             HStack {
                 Image(Icons.facebookLogo.rawValue)
-                Text("Sign In with Facebook")
+                //Text("Sign In with Facebook")
+                 Text(LocalizedStringResource("signinFacebook"))
                 //Spacer()
             }
             .tint(.white)

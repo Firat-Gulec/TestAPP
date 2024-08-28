@@ -1,0 +1,42 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "signinApple" : {
+      "comment" : "Sign In with Apple",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign In with Apple"
+          }
+        }
+      }
+    },
+    "signinFacebook" : {
+      "comment" : "Sign In with Facebook",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign In with Facebook"
+          }
+        }
+      }
+    },
+    "signinGoogle" : {
+      "comment" : "Sign In with Google",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign In with Google"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

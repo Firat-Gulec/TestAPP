@@ -11,6 +11,7 @@
 		8A4C0A602C7F89620024E4B4 /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C0A5F2C7F89620024E4B4 /* GoogleButton.swift */; };
 		8A4C0A622C7F8DA70024E4B4 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C0A612C7F8DA70024E4B4 /* EdgeInsets.swift */; };
 		8A4C0A642C7F8E420024E4B4 /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C0A632C7F8E420024E4B4 /* AppleButton.swift */; };
+		8A4C0A672C7F98910024E4B4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C0A662C7F98910024E4B4 /* Localizable.xcstrings */; };
 		8AB8A2E42C7EF810006E68A9 /* WelcomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A2E32C7EF810006E68A9 /* WelcomeApp.swift */; };
 		8AB8A2E62C7EF810006E68A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A2E52C7EF810006E68A9 /* ContentView.swift */; };
 		8AB8A2E82C7EF811006E68A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8A2E72C7EF811006E68A9 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		8A4C0A5F2C7F89620024E4B4 /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
 		8A4C0A612C7F8DA70024E4B4 /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
 		8A4C0A632C7F8E420024E4B4 /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
+		8A4C0A662C7F98910024E4B4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		8AB8A2E02C7EF810006E68A9 /* Welcome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welcome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8A2E32C7EF810006E68A9 /* WelcomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeApp.swift; sourceTree = "<group>"; };
 		8AB8A2E52C7EF810006E68A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 				8A4C0A632C7F8E420024E4B4 /* AppleButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8A4C0A652C7F98520024E4B4 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C0A662C7F98910024E4B4 /* Localizable.xcstrings */,
+			);
+			path = Locale;
 			sourceTree = "<group>";
 		};
 		8AB8A2D72C7EF810006E68A9 = {
@@ -111,6 +121,7 @@
 		8AB8A2F12C7EF8D0006E68A9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8A4C0A652C7F98520024E4B4 /* Locale */,
 				8AB8A3052C7F20E8006E68A9 /* Extensions */,
 				8AB8A3002C7F034B006E68A9 /* Enums */,
 			);
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB8A2FC2C7EFAA6006E68A9 /* Images.xcassets in Resources */,
+				8A4C0A672C7F98910024E4B4 /* Localizable.xcstrings in Resources */,
 				8AB8A2FE2C7EFAB5006E68A9 /* Colors.xcassets in Resources */,
 				8AB8A2EB2C7EF811006E68A9 /* Preview Assets.xcassets in Resources */,
 				8AB8A2E82C7EF811006E68A9 /* Assets.xcassets in Resources */,

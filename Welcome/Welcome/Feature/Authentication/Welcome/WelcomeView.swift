@@ -18,13 +18,13 @@ struct WelcomeView: View {
                 googleLoginButton(onTap: {}).padding(Edge.Set.top, 2)
                 appleLoginButton(onTap: {}).padding(Edge.Set.top, 2)
             }.padding(.paddingAll)
-        }
+        }.scaledToFill()
     }
 }
 
 
 #Preview {
-    WelcomeView()
+    WelcomeView().ignoresSafeArea(.all)
 }
 
 
