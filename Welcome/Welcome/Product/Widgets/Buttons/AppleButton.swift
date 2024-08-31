@@ -17,11 +17,19 @@ struct appleLoginButton: View {
                 Image(Icons.appleLogo.rawValue)
                 Text(LocalizedStringResource("signinApple"))
                 //Spacer()
-            }
+            }.frame(width: 300)
             .tint(.white)
+            .font(.title2)
+            .padding(.all,PagePadding.All.normal.rawValue)
         }
-        .buttonStyle(.borderedProminent)
         .buttonBorderShape(.roundedRectangle)
         .controlSize(.large)
+        .background(Color.gray)
+        .cornerRadius(RadiusItems.radius)
     }
 }
+
+#Preview {
+    appleLoginButton(onTap: {})
+}
+

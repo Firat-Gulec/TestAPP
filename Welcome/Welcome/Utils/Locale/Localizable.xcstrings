@@ -36,6 +36,18 @@
           }
         }
       }
+    },
+    "signupwithEmail" : {
+      "comment" : "Sign Up with Email",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign Up with Email"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

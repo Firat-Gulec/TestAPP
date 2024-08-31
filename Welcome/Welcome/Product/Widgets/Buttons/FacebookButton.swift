@@ -18,11 +18,21 @@ struct facebookLoginButton: View {
                 //Text("Sign In with Facebook")
                  Text(LocalizedStringResource("signinFacebook"))
                 //Spacer()
-            }
+            }.frame(width: 300)
             .tint(.white)
+            .font(.title2)
+            .padding(.all,PagePadding.All.normal.rawValue)
         }
-        .buttonStyle(.borderedProminent)
         .buttonBorderShape(.roundedRectangle)
         .controlSize(.large)
+        .background(Color.blue)
+        .cornerRadius(RadiusItems.radius)
     }
 }
+
+
+#Preview {
+    facebookLoginButton( onTap: {})
+}
+
+

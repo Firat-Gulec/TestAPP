@@ -1,34 +1,33 @@
 //
-//  GoogleButton.swift
+//  File.swift
 //  Welcome
 //
-//  Created by FiratGulec on 28.08.2024.
+//  Created by FiratGulec on 31.08.2024.
 //
 
 import SwiftUI
 
-struct googleLoginButton: View {
+struct CustomButton: View {
     var onTap: () -> Void
     var body: some View {
         Button{
             onTap()
         }label: {
             HStack {
-                Image(Icons.googleLogo.rawValue)
-                Text(LocalizedStringResource("signinGoogle"))
+                Text(LocalizedStringResource("signupwithEmail"))
                 //Spacer()
             }.frame(width: 300)
-            .tint(.black)
-            .font(.title2)
+            .tint(.white)
+            .font(.title)
             .padding(.all,PagePadding.All.normal.rawValue)
         }
         .buttonBorderShape(.roundedRectangle)
         .controlSize(.large)
-        .background(Color.white)
+        .background(Color.orange)
         .cornerRadius(RadiusItems.radius)
     }
 }
 
 #Preview {
-    googleLoginButton(onTap: {})
+    CustomButton(onTap: {})
 }
