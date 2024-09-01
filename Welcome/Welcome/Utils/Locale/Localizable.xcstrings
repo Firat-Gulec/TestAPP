@@ -1,6 +1,36 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Hello, world!" : {
+
+    },
+    "or" : {
+      "comment" : "OR",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OR"
+          }
+        }
+      }
+    },
+    "RIDE HARD OR STAY HOME" : {
+
+    },
+    "ridehard" : {
+      "comment" : "RIDE HARD",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RIDE HARD"
+          }
+        }
+      }
+    },
     "signinApple" : {
       "comment" : "Sign In with Apple",
       "extractionState" : "manual",
@@ -45,6 +75,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign Up with Email"
+          }
+        }
+      }
+    },
+    "stayhome" : {
+      "comment" : "STAY HOME",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "STAY HOME"
           }
         }
       }
