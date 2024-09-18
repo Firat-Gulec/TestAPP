@@ -25,6 +25,8 @@
 		8AB8A3022C7F0369006E68A9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A3012C7F0369006E68A9 /* Images.swift */; };
 		8AB8A3042C7F2089006E68A9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A3032C7F2089006E68A9 /* Colors.swift */; };
 		8AB8A3092C7F2BC7006E68A9 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8A3082C7F2BC7006E68A9 /* Icons.swift */; };
+		8AF469982C9B1BF600FF50E8 /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF469972C9B1BF600FF50E8 /* NormalButton.swift */; };
+		8AF4699A2C9B207400FF50E8 /* IndicatorRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF469992C9B207400FF50E8 /* IndicatorRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		8AB8A3012C7F0369006E68A9 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		8AB8A3032C7F2089006E68A9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		8AB8A3082C7F2BC7006E68A9 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		8AF469972C9B1BF600FF50E8 /* NormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
+		8AF469992C9B207400FF50E8 /* IndicatorRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				8A4C0A5C2C7F890A0024E4B4 /* Buttons */,
+				8AF469992C9B207400FF50E8 /* IndicatorRectangle.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -75,6 +80,7 @@
 				8A4C0A5F2C7F89620024E4B4 /* GoogleButton.swift */,
 				8A4C0A632C7F8E420024E4B4 /* AppleButton.swift */,
 				8A4C0A6F2C82F17F0024E4B4 /* CustomButton.swift */,
+				8AF469972C9B1BF600FF50E8 /* NormalButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 				8A4C0A5E2C7F89320024E4B4 /* FacebookButton.swift in Sources */,
 				8AB8A3022C7F0369006E68A9 /* Images.swift in Sources */,
 				8A4C0A732C8325F90024E4B4 /* OnboardView.swift in Sources */,
+				8AF4699A2C9B207400FF50E8 /* IndicatorRectangle.swift in Sources */,
+				8AF469982C9B1BF600FF50E8 /* NormalButton.swift in Sources */,
 				8AB8A2FA2C7EFA2D006E68A9 /* WelcomeView.swift in Sources */,
 				8A4C0A602C7F89620024E4B4 /* GoogleButton.swift in Sources */,
 				8AB8A2E42C7EF810006E68A9 /* WelcomeApp.swift in Sources */,
@@ -448,6 +456,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +486,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "bycycle-summer.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
