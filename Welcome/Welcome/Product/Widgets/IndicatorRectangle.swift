@@ -10,7 +10,9 @@ import SwiftUI
 struct IndicatorRectangle: View {
     var width: Double
     var body: some View {
-        Rectangle().cornerRadius(RadiusItems.radius).frame(width: width)
+        Rectangle()
+            .fill(.gray)
+            .cornerRadius(RadiusItems.radius).frame(width: width)
     }
 }
 

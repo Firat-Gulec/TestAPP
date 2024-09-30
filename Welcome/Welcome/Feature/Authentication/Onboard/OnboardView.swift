@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct OnboardView: View {
+    @State var currentIndex = 0
+    
     var body: some View {
         GeometryReader { geometry in
             ZStack {
@@ -16,25 +18,34 @@ struct OnboardView: View {
                 HStack{
                     VStack{
                         Spacer()
-                        TabView(content:
+                        TabView(
+                            //selection: $currentIndex,
+                            content:
                                     {
                             VStack{
                                 Image(Images.onboarding_1.rawValue).resizable().scaledToFit()
-                                Text(LocalizedStringResource("Ride Hard or Stay Home"))
+                                Text(LocalizedStringResource("Ride Hard or Stay Home")).font(.largeTitle)
                             }
                             VStack{
                                 Image(Images.onboarding_2.rawValue).resizable().scaledToFit()
-                                Text(LocalizedStringResource("Ride Hard or Stay Home"))
+                                Text(LocalizedStringResource("Ride Hard or Stay Home")).font(.largeTitle)
+                                
                             }
                             VStack{
                                 Image(Images.onboarding_3.rawValue).resizable().scaledToFit()
-                                Text(LocalizedStringResource("Ride Hard or Stay Home"))
+                                Text(LocalizedStringResource("Ride Hard or Stay Home")).font(.largeTitle)
                             }
                         }
                         ).tabViewStyle(.page)
-                    
                         Spacer()
                         HStack{
+                            /*  ForEach((0...2), id: \.self) { index
+                                in
+                                if(index == currentIndex) {
+                                    IndicatorRectangle(width: 50)
+                                }else {
+                                    IndicatorRectangle(width: 20)
+                                }}*/
                         }.frame(height: 10)
                         NormalButton(onTap: {}, title: "Get Ready")
                         Spacer()
