@@ -13,4 +13,6 @@ enum Icons:String {
     case facebookLogo = "facebook_logo"
     case googleLogo = "google_logo"
     case appleLogo = "apple_logo"
+    case mailLogo = "mail"
+    case passwordLogo = "password"
 }

@@ -14,8 +14,8 @@ struct LoginView: View {
             Image(Images.onboarding_3.rawValue).resizable().scaledToFit().padding(EdgeInsets.paddingAll)
             Text("Welcome Back!").font(.largeTitle)
             VStack {
-                HTextField(hint:"Write your name", IconName:Icons.facebookLogo.rawValue)
-                HTextSecureField(hint:"Write your password", IconName:Icons.facebookLogo.rawValue)
+                HTextField(hint:"Write your name", IconName:Icons.mailLogo.rawValue)
+                HTextSecureField(hint:"Write your password", IconName:Icons.passwordLogo.rawValue)
 
             }.padding(EdgeInsets.paddingAll)
             Divider().padding()
