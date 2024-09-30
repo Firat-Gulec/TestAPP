@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct OnboardView: View {
-    @State var currentIndex = 0
+    @StateObject var OnboardingViemModel = OnboardViewModel()
+
     
     var body: some View {
         GeometryReader { geometry in
@@ -19,7 +20,7 @@ struct OnboardView: View {
                     VStack{
                         Spacer()
                         TabView(
-                            //selection: $currentIndex,
+                            selection: $OnboardingViemModel.currentIndex,
                             content:
                                     {
                             VStack{
