@@ -42,6 +42,6 @@ extension UserCacheProtocol {
     }
 }
 
-struct UserdefaultItems: UserCacheProtocol {
+struct UserDefaultCache: UserCacheProtocol {
     
 }
