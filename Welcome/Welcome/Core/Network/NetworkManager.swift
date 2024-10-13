@@ -17,6 +17,8 @@ protocol INetworkManager {
     var configration: NetworkConfiguration { get set }
 }
 
+
+
 class NetworkManager: INetworkManager {
     internal var configration: NetworkConfiguration
     
