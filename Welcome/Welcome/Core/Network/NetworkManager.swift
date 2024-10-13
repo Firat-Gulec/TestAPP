@@ -17,6 +17,9 @@ protocol INetworkManager {
     var configration: NetworkConfiguration { get set }
 }
 
+extension NetworkManager {
+    static let networkManager: INetworkManager = NetworkManager(configuration: NetworkConfiguration(baseURL: NetworkPath.baseURL.absoluteURL))
+}
 
 
 class NetworkManager: INetworkManager {
@@ -27,7 +30,7 @@ class NetworkManager: INetworkManager {
     }
     
     func fetch<T: Codable>(path: NetworkPath, method: HTTPMethod, type: T.Type) async -> T? {
-        let dataRequest = AF.request("", method: method)
+        let dataRequest = AF.request("\(configration.baseURL.appendingPathComponent(path.rawValue))", method: method)
             .validate()
             .serializingDecodable(T.self)
         

@@ -1,6 +1,8 @@
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
+// fake data: https://reqres.in/api/users?page=2
+// Model Creator Website:https://app.quicktype.io
 //   let userResponse = try? JSONDecoder().decode(UserResponse.self, from: jsonData)
 
 import Foundation

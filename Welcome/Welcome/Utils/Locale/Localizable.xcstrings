@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "By clicking \"Create account\" I agree to the [IOS](www.com.vb) App Terms and [Privacy Policies](www.com.vb2)" : {
+
+    },
     "createanaccount" : {
       "comment" : "Create an account",
       "extractionState" : "manual",
@@ -28,7 +31,7 @@
         }
       }
     },
-    "RIDE HARD OR STAY HOME" : {
+    "Ride Hard or Stay Home" : {
 
     },
     "ridehard" : {
@@ -102,6 +105,9 @@
           }
         }
       }
+    },
+    "Welcome Back!" : {
+
     },
     "writeyourname" : {
       "comment" : "Write your name",
